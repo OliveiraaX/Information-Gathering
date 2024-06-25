@@ -27,7 +27,7 @@ No contexto de reconhecimento da web, os URIs .well-known são valiosos para des
 O URI `openid-configuration` faz parte do protocolo OpenID Connect Discovery. Um aplicativo cliente pode recuperar a configuração do provedor OpenID Connect acessando `https://exemplo.com/.well-known/openid-configuration`. Este endpoint retorna um documento JSON com metadados sobre os endpoints do provedor, métodos de autenticação, emissão de token, e mais:
 
 `{
-"issuer": "https://exemplo.com",   
+"issuer": "https://exemplo.com", <br>  
 "authorization_endpoint": "https://exemplo.com/oauth2/authorize",   
 "token_endpoint": "https://exemplo.com/oauth2/token",   
 "userinfo_endpoint": "https://exemplo.com/oauth2/userinfo", 
