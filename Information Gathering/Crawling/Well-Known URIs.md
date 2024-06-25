@@ -26,16 +26,16 @@ No contexto de reconhecimento da web, os URIs .well-known são valiosos para des
 
 O URI `openid-configuration` faz parte do protocolo OpenID Connect Discovery. Um aplicativo cliente pode recuperar a configuração do provedor OpenID Connect acessando `https://exemplo.com/.well-known/openid-configuration`. Este endpoint retorna um documento JSON com metadados sobre os endpoints do provedor, métodos de autenticação, emissão de token, e mais:
 
-`{
-"issuer": "https://exemplo.com", <br>  
-"authorization_endpoint": "https://exemplo.com/oauth2/authorize",   
-"token_endpoint": "https://exemplo.com/oauth2/token",   
-"userinfo_endpoint": "https://exemplo.com/oauth2/userinfo", 
-"jwks_uri": "https://exemplo.com/oauth2/jwks",   
-"response_types_supported": ["code", "token", "id_token"],   
-"subject_types_supported": ["public"],   
-"id_token_signing_alg_values_supported": ["RS256"],   
-"scopes_supported": ["openid", "profile", "email"] 
+`{`<br>`  
+"issuer": "https://exemplo.com", `<br>`  
+"authorization_endpoint": "https://exemplo.com/oauth2/authorize",  `<br>`   
+"token_endpoint": "https://exemplo.com/oauth2/token",  `<br>`   
+"userinfo_endpoint": "https://exemplo.com/oauth2/userinfo", `<br>`  
+"jwks_uri": "https://exemplo.com/oauth2/jwks",  `<br>`   
+"response_types_supported": ["code", "token", "id_token"],   `<br>`  
+"subject_types_supported": ["public"],   `<br>`  
+"id_token_signing_alg_values_supported": ["RS256"],   `<br>`  
+"scopes_supported": ["openid", "profile", "email"]`<br>`  
 }`
 
 ##### Oportunidades de Exploração:
