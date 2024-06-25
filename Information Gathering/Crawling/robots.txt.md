@@ -53,7 +53,7 @@ Para o reconhecimento da web, robots.txt é uma fonte valiosa de inteligência:
 `Disallow: /private/ `<br>
 `Allow: /public/  `<br>
 `User-agent: Googlebot Crawl-delay: 10  `<br>
-`Sitemap: https://www.exemplo.com/sitemap.xml`<br>
+`Sitemap: https://www.exemplo.com/sitemap.xml`<br><br>
 Este arquivo indica:
 - Todos os bots não têm permissão para acessar os diretórios /admin/ e /private/.
 - Todos os *bots têm permissão para acessar o diretório /public/*.
