@@ -48,12 +48,12 @@ Para o reconhecimento da web, robots.txt é uma fonte valiosa de inteligência:
 
 #### Exemplo de Arquivo robots.txt
 
-`User-agent: * 
-`Disallow: /admin/ 
-`Disallow: /private/ 
-`Allow: /public/  
-`User-agent: Googlebot Crawl-delay: 10  
-`Sitemap: https://www.exemplo.com/sitemap.xml`
+`User-agent: * `<br>
+`Disallow: /admin/ `<br>
+`Disallow: /private/ `<br>
+`Allow: /public/  `<br>
+`User-agent: Googlebot Crawl-delay: 10  `<br>
+`Sitemap: https://www.exemplo.com/sitemap.xml`<br>` 
 
 Este arquivo indica:
 - Todos os bots não têm permissão para acessar os diretórios /admin/ e /private/.
