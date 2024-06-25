@@ -32,9 +32,9 @@ Os logs de CT são úteis para a enumeração de subdomínios, oferecendo uma vi
 
 ## Exemplo de pesquisa de logs de CT usando crt.sh
 
-`$ curl -s "https://crt.sh/?q=facebook.com&output=json" | jq -r '.[]  | select(.name_value | contains("dev")) | .name_value' | sort -u `<br>`     
-``*.dev.facebook.com `<br>`  
-``*.newdev.facebook.com `<br> 
+`$ curl -s "https://crt.sh/?q=facebook.com&output=json" | jq -r '.[]  | select(.name_value | contains("dev")) | .name_value' | sort -u `<br>    
+`*.dev.facebook.com `<br>
+`*.newdev.facebook.com `<br> 
 `*.secure.dev.facebook.com dev.facebook.com devvm1958.ftw3.facebook.com `<br>
 `facebook-amex-dev.facebook.com `<br>
 `facebook-amex-sign-enc-dev.facebook.com newdev.facebook.com secure.dev.facebook.com`
