@@ -40,7 +40,7 @@ Primeiro, certifique-se de ter o Scrapy instalado em seu sistema:
 #### Executando o ReconSpider
 
 1. **Baixe o ReconSpider**:
-`wget https://academy.hackthebox.com/storage/modules/279/ReconSpider.zip unzip ReconSpider.zip`
+`git clone https://github.com/OliveiraaX/ReconSpider`
 
 2. **Execute o ReconSpider**:
 `python3 ReconSpider.py http://exemplo.com`
