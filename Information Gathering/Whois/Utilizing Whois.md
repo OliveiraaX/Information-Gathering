@@ -71,7 +71,12 @@ Relatório de Inteligência de Ameaças  Uma empresa de segurança cibernética 
     - **Registrant/Admin/Tech Organization:** Meta Platforms, Inc.
     - **Registrant/Admin/Tech Contact:** Domain Admin
 - **Domain Status:**
-    - clientDeleteProhibited, <br> clientTransferProhibited, <br> clientUpdateProhibited, <br> serverDeleteProhibited, <br> serverTransferProhibited, <br> serverUpdateProhibited
+    - clientDeleteProhibited,
+    - clientTransferProhibited,
+    - clientUpdateProhibited,
+    - serverDeleteProhibited,
+    - serverTransferProhibited,
+    - serverUpdateProhibited,
 - **Name Servers:**
     - A.NS.FACEBOOK.COM, B.NS.FACEBOOK.COM, C.NS.FACEBOOK.COM, D.NS.FACEBOOK.COM
 
