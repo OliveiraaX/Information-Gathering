@@ -78,7 +78,10 @@ Relatório de Inteligência de Ameaças  Uma empresa de segurança cibernética 
     - serverTransferProhibited,
     - serverUpdateProhibited,
 - **Name Servers:**
-    - A.NS.FACEBOOK.COM, B.NS.FACEBOOK.COM, C.NS.FACEBOOK.COM, D.NS.FACEBOOK.COM
+    - A.NS.FACEBOOK.COM,
+    - B.NS.FACEBOOK.COM,
+    - C.NS.FACEBOOK.COM,
+    - D.NS.FACEBOOK.COM
 
 **Conclusão:** O resultado WHOIS está alinhado com as expectativas de um domínio bem estabelecido e seguro de propriedade de uma grande organização como a Meta Platforms, Inc.
 
