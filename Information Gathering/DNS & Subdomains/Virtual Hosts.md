@@ -73,8 +73,7 @@ Gobuster é uma ferramenta versátil comumente usada para força bruta de diret�
 [+] Append Domain: true `<br>`
 ===================== Starting gobuster in VHOST enumeration mode =====================`<br>`
 Found: forum.inlanefreight.htb:81 Status: 200 [Size: 100] [...] `<br>`
-Progress: 114441 / 114442 (100.00%) `<br>`
-===================== Finished ===================== `<br>`
+Progress: 114441 / 114442 (100.00%) `<br>`===================== Finished =====================`<br>`
 
 Gobuster gerará hosts virtuais em potencial à medida que os descobre. Analise os resultados cuidadosamente, observando quaisquer descobertas incomuns ou interessantes. Poderá ser necessária uma investigação mais aprofundada para confirmar a existência e a funcionalidade dos hosts virtuais descobertos.
 
