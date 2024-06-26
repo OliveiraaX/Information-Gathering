@@ -62,20 +62,19 @@ Gobuster é uma ferramenta versátil comumente usada para força bruta de diret�
 
 #### Exemplo de Uso do Gobuster
 
-`$ gobuster vhost -u http://exemplo.htb:81 -w /usr/share/SecLists/Discovery/DNS/subdomains-top1million-110000.txt --append-domain =============================================================Gobuster v3.6 
-`by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart) =============================================================[+] Url:             http://inlanefreight.htb:81 
-`[+] Method:          
-`GET [+] Threads:         10 [+] Wordlist:        /usr/share/SecLists/Discovery/DNS/subdomains-top1million-110000.txt
-`[+] User Agent:      gobuster/3.6 
-`[+] Timeout:         10s 
-`[+] Append Domain:   true ==================================================
-`Starting gobuster in VHOST enumeration mode 
-`==================================================
-`Found: forum.inlanefreight.htb:81 Status: 200 [Size: 100] [...] 
-`Progress: 114441 / 114442 (100.00%) 
-`================================================== 
-`Finished 
-`==================================================
+`$ gobuster vhost -u http://exemplo.htb:81 -w /usr/share/SecLists/Discovery/DNS/subdomains-top1million-110000.txt --append-domain 
+============================================================= Gobuster v3.6 by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart) =============================================================
+[+] Url:             http://inlanefreight.htb:81 
+[+] Method:          GET 
+[+] Threads:         10 
+[+] Wordlist:        /usr/share/SecLists/Discovery/DNS/subdomains-top1million-110000.txt
+[+] User Agent:      gobuster/3.6 
+[+] Timeout:         10s 
+[+] Append Domain:   true 
+================================================== Starting gobuster in VHOST enumeration mode ==================================================
+Found: forum.inlanefreight.htb:81 Status: 200 [Size: 100] [...] 
+Progress: 114441 / 114442 (100.00%) 
+================================================== Finished ==================================================`
 
 Gobuster gerará hosts virtuais em potencial à medida que os descobre. Analise os resultados cuidadosamente, observando quaisquer descobertas incomuns ou interessantes. Poderá ser necessária uma investigação mais aprofundada para confirmar a existência e a funcionalidade dos hosts virtuais descobertos.
 
