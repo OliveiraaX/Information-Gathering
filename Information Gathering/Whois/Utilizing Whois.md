@@ -29,50 +29,49 @@ Relatório de Inteligência de Ameaças  Uma empresa de segurança cibernética 
 ```bash sudo apt update sudo apt install whois -y```
 
 ### Exemplo de Consulta WHOIS em facebook.com
-
-$ whois facebook.com
-
-   Domain Name: FACEBOOK.COM
-   Registry Domain ID: 2320948_DOMAIN_COM-VRSN
-   Registrar WHOIS Server: whois.registrarsafe.com
-   Registrar URL: http://www.registrarsafe.com
-   Updated Date: 2024-04-24T19:06:12Z
-   Creation Date: 1997-03-29T05:00:00Z
-   Registry Expiry Date: 2033-03-30T04:00:00Z
-   Registrar: RegistrarSafe, LLC
-   Registrar IANA ID: 3237
-   Registrar Abuse Contact Email: abusecomplaints@registrarsafe.com
-   Registrar Abuse Contact Phone: +1-650-308-7004
-   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
-   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
-   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
-   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
-   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
-   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
-   Name Server: A.NS.FACEBOOK.COM
-   Name Server: B.NS.FACEBOOK.COM
-   Name Server: C.NS.FACEBOOK.COM
-   Name Server: D.NS.FACEBOOK.COM
-   DNSSEC: unsigned
-   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
-   Last update of whois database: 2024-06-01T11:24:10Z 
-   [...]
-   Registry Registrant ID:
-   Registrant Name: Domain Admin
+```
+   $ whois facebook.com <br>
+   Domain Name: FACEBOOK.COM <br>
+   Registry Domain ID: 2320948_DOMAIN_COM-VRSN <br>
+   Registrar WHOIS Server: whois.registrarsafe.com <br>
+   Registrar URL: http://www.registrarsafe.com <br>
+   Updated Date: 2024-04-24T19:06:12Z <br>
+   Creation Date: 1997-03-29T05:00:00Z <br>
+   Registry Expiry Date: 2033-03-30T04:00:00Z <br>
+   Registrar: RegistrarSafe, LLC <br>
+   Registrar IANA ID: 3237 <br>
+   Registrar Abuse Contact Email: abusecomplaints@registrarsafe.com <br>
+   Registrar Abuse Contact Phone: +1-650-308-7004 <br>
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited <br>
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited <br>
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited <br>
+   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited <br>
+   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited <br>
+   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited <br>
+   Name Server: A.NS.FACEBOOK.COM <br>
+   Name Server: B.NS.FACEBOOK.COM <br>
+   Name Server: C.NS.FACEBOOK.COM <br>
+   Name Server: D.NS.FACEBOOK.COM <br>
+   DNSSEC: unsigned <br>
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/ <br>
+   Last update of whois database: 2024-06-01T11:24:10Z  <br>
+   [...] <br>
+   Registry Registrant ID: <br>
+   Registrant Name: Domain Admin <br>
    Registrant Organization: Meta Platforms, Inc.
-   [...]
-
+   [...] <br>
+```
 **A saída WHOIS revela vários detalhes importantes:**
 
 - **Domain Registration:**
-    - **Registrar:** RegistrarSafe, LLC
+    - **Registrar:** RegistrarSafe, LLC <br>
     - **Creation Date:** 29/03/1997
     - **Expiry Date:** 30/03/2033
 - **Domain Owner:**
     - **Registrant/Admin/Tech Organization:** Meta Platforms, Inc.
     - **Registrant/Admin/Tech Contact:** Domain Admin
 - **Domain Status:**
-    - clientDeleteProhibited, clientTransferProhibited, clientUpdateProhibited, serverDeleteProhibited, serverTransferProhibited, serverUpdateProhibited
+    - clientDeleteProhibited, <br> clientTransferProhibited, <br> clientUpdateProhibited, <br> serverDeleteProhibited, <br> serverTransferProhibited, <br> serverUpdateProhibited
 - **Name Servers:**
     - A.NS.FACEBOOK.COM, B.NS.FACEBOOK.COM, C.NS.FACEBOOK.COM, D.NS.FACEBOOK.COM
 
